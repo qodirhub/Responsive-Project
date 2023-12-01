@@ -456,6 +456,30 @@ button {
 
 
 /*=============== VALUE ===============*/
+.value__container {
+  row-gap: 3rem;
+}
+
+.value__images {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.value__orbe {
+  width: 266px;
+  height: 316px;
+  background-color: hsl(228, 24%, 97%);
+  border-radius: 135px 135px 16px 16px;
+}
+
+.value__img {
+  position: absolute;
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 125px 125px 12px 12px;
+}
 
 
 /*Rotate icon and add shadows*/
